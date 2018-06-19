@@ -3,7 +3,8 @@
 # Description
 
 Coming soon!
-This repository will be updated with the project implemented in Theano.
+
+This repository will be updated with the implementation in Theano.
 
 # Citation
 
