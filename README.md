@@ -2,9 +2,25 @@
 
 # Description
 
-Coming soon!
+This is the implementation of coupled end-to-end transfer learning with generalized Fisher Information in domain adaptation from SVNH to MNIST.
+In domain adaptation, we made teacher network and student network share the same encoder G. with different classifier C1, C2, and decoder D1, D2.
+The teacher is trained to classify data in source domain and reconstruct target images. The student tried to classify source domain image and target images.
+The student is also trained to replicate teacher's classification outputs as well as reconstruction results.
 
-This repository will be updated with the implementation in Theano.
+
+
+
+### Installation
+- Install PyTorch (Works on Version 0.2.0_3) and dependencies from http://pytorch.org.
+- Install Torch vision from the source.
+
+
+### Train
+For example, if you run an experiment on adaptation from svhn to mnist,
+```
+python main.py --source svhn --target mnist
+``
+
 
 # Citation
 
