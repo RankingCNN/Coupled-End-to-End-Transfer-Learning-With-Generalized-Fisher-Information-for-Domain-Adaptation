@@ -19,7 +19,7 @@ The student is also trained to replicate teacher's classification outputs as wel
 For example, if you run an experiment on adaptation from svhn to mnist,
 ```
 python main.py --source svhn --target mnist
-``
+```
 
 
 # Citation
