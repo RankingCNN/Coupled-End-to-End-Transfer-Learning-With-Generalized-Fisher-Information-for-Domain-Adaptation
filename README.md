@@ -24,7 +24,7 @@ python main.py --source svhn --target mnist
 
 # Citation
 
-The related paper is published as below:
+Please cite the original publication:
 
 <pre><code>@InProceedings{Chen_2018_CVPR,
 author = {Chen, Shixing and Zhang, Caojin and Dong, Ming},
